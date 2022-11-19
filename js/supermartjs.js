@@ -117,7 +117,15 @@ if (totalCost <= 0.00)
        if (userPhoneNumber === ""|| !phoneNumbRegex.test(userPhoneNumber) ){
         errors += `Please enter valid user phone number <br>`;
         }
-    
+          if (cardNumber === ""|| !cardNumbRegex.test(cardNumber) ){
+            errors += `Please enter valid user card number <br>`;
+            }
+            if (cardExpiryMonth === ""|| !cardExpiryMonthRegex.test(cardExpiryMonth) ){
+                errors += `Please enter valid expiry month <br>`;
+                }
+                if (cardExpiryYear === ""|| !cardExpiryYearRegex.test(cardExpiryYear) ){
+                    errors += `Please enter valid expiry year <br>`;
+                    }
     
         
             console.log(errors)

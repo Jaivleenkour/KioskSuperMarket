@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiosk SuperMarket</title>
+    <link rel="stylesheet" href="css/styleFile.css"/>
+    <script src="js/supermartjs.js"></script>
+</head>
+<body>
+    <h1><em>WELCOME TO KIOSK SUPER MARKET!!</em></h1>
+    <!-- Assign Image of super market -->
+    <img src="gallery/pexels-anna-shvets-3962293.jpg" alt="Woman Wearing Mask in Supermarket."/>
+    <!--image from Anna Shvets.(2020). [Woman Wearing Mask in Supermarket.] [Photograph]. Pexels. https://www.pexels.com/photo/woman-wearing-mask-in-supermarket-3962293/ -->
+    <h3>Here are the list of items that are available for purchase.</h3>
+    <label for="belpprs">Bell Peppers: $2.55 </label>
+    <input type="text" id="belpprs" name="belpprs"><br><br>
+    <label for="milkType">Milk: $3.99 </label>
+    <input type="text" id="milkType" name="milkType"><br><br>
+    <label for="breadType">Bread: $2.00 </label>
+    <input type="text" id="breadType" name="breadType"><br><br>
+    <label for="fish">Marinated Salmon Fish: $13.99 </label>
+    <input type="text" id="fish" name="fish"><br><br>
+    <label for="butter">Salted Butter: $3.00 </label>
+    <input type="text" id="butter" name="butter"><br><br>
+    <p><button onclick="getOrders();">Added to Orders</button></p>
+    <p id="result"></p>
+    <form name="myform" method="Post" onsubmit="return formSubmitInfo();"  action="" >
+      <label>Name</label>
+      <input id="user_name" placeholder="User Name" type="text" name="user_name"><br/>
+      <label>Phone</label>
+      <input id="user_phone" placeholder="Phone Number" type="text" name="user_phone"><br/>
+      <label>Credit Card Number</label>
+      <input id="user_cardNumber" placeholder="xxxx-xxxx-xxxx-xxxx" type="text" name="user_cardNumber"><br/>
+      <label>Credit Card Expiry Month</label>
+      <input id="user_expiryMonth" placeholder="XX" type="text" name="user_expiryMonth"><br/>
+      <label>Credit Card Expiry Year</label>
+      <input id="user_expiryYear" placeholder="YYYY" type="text" name="user_expiryYear"><br/>
+    
+
+ 
+      <br/><br/>
+
+       <input type="submit" value="Submit">
+       <p id="errors"></p>
+    </form>  
+
+    <div class="receipt">
+      <p id="receiptOutput">This is where the order receipt will show up.</p>
+    </div> 
+
+     <footer>
+       <p>&copy;Copyright Kiosk super market, 1998</p>
+     </footer>
+</body>
+</html>

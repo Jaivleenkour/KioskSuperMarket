@@ -1,0 +1,45 @@
+img {
+    /*width: 700px;
+   height: 300px;
+   margin: 10px;
+   margin-top: ;*/
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1{
+    text-align: center;
+}
+body{
+    padding: 20px;
+    border: 2px solid black;
+}
+/*h3{
+    padding: 20px;
+}*/
+form{
+    width: 600px;
+    border: 2px solid orange;
+    box-shadow: 0 0 5px #640606;
+    padding: 30px;
+    margin: 25px auto;
+    color: black;
+   /* background-color: #0781b2;*/
+    border-radius: 20px;
+}
+result{
+    font-size: 30px;
+}
+input[type="submit"]{
+    width: 100%;
+    font-size: 22px;
+    background-color: orange;
+    color: white;
+    font-family: sans-serif;
+    border: 0px;
+    padding: 10px;
+    height: 50px;
+    border-radius: 3px;
+}
+

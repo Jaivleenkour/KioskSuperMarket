@@ -8,3 +8,5 @@ Steps to use this project:
 1 > Open github
 2 > Clone the repository using VS Code or your preferred code editor
 3 > git clone https://github.com/Jaivleenkour/KioskSuperMarket.git .
+4 > After the successfull installation, user can build the project by moving to supermarket.html file and then right click and choose the option to open with live server.
+5 > This will open the project in web browser and you are good to go with the orders.
